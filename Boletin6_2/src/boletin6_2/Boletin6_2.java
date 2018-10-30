@@ -15,8 +15,8 @@ public class Boletin6_2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Short numeroPrimero =  Peticiones.pedirNumeroShort("Introduzca el primer numero:");
-        Short numeroSegundo =  Peticiones.pedirNumeroShort("Introduzca el segundo numero:");
+        Short numeroPrimero =  Peticiones.pedirNumeroShort("el primer numero:");
+        Short numeroSegundo =  Peticiones.pedirNumeroShort(" el segundo numero:");
         
         if (numeroPrimero >= numeroSegundo){
             System.out.println("La resta de los dos numeros es : "+ (numeroPrimero - numeroSegundo));
