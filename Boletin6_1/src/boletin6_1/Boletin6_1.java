@@ -15,7 +15,7 @@ public class Boletin6_1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       Integer x = Peticiones.pedirNumIntFiltrado("introduzca un numero", Peticiones.POSITIVO);
+       Integer x = Peticiones.pedirNumIntFiltrado(" un numero", Peticiones.POSITIVO);
                
                if (null!= x){
                    
