@@ -15,7 +15,12 @@ public class Boletin6_1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Integer x = Peticiones.pedirNumIntFiltrado("introduzca un numero", Peticiones.POSITIVO);
+               
+               if (null!= x){
+                   
+                   System.out.println(x+" es positivo");
+               }
     }
     
 }
