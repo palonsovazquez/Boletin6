@@ -21,7 +21,7 @@ public class Boletin6_2 {
         if (numeroPrimero >= numeroSegundo){
             System.out.println("La resta de los dos numeros es : "+ (numeroPrimero - numeroSegundo));
         }
-        System.out.println("La suma de los dos numeros es : ");
+        System.out.println("La suma de los dos numeros es : "+ (numeroPrimero + numeroSegundo));
     }
 
 }
